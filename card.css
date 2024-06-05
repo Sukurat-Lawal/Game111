@@ -1,0 +1,26 @@
+.game-container {
+    text-align: center;
+  }
+  
+  .board-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  }
+  
+    .board-square {
+      width: 100px;
+      height: 100px;
+      border: 1px solid rgb(162, 56, 18);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    
+    
+    #game-result {
+      margin-top: 20px;
+      font-size: 24px;
+    }
